@@ -1,0 +1,17 @@
+﻿<Window x:Class="Hanoi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hanoi"
+        mc:Ignorable="d"
+        Title="Ханойская башня" Height="342" Width="622" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas Name="g" HorizontalAlignment="Center" Height="239" Margin="0,10,0,0" VerticalAlignment="Top" Width="600" Background="#FFB8F1EF"/>
+        <Button x:Name="button" Content="Выход" HorizontalAlignment="Left" Margin="453,280,0,0" VerticalAlignment="Top" Width="151" Click="cmClose"/>
+        <Button x:Name="button1" Content="Ход!" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" Width="427" Click="cmRun"/>
+        <CheckBox x:Name="checkBox1" Content="стараться избегать повторных шагов" HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top" Width="232"/>
+        <CheckBox x:Name="checkBox2" Content="Отбирать шаги" HorizontalAlignment="Left" Margin="257,260,0,0" VerticalAlignment="Top" Width="305"/>
+
+    </Grid>
+</Window>
